@@ -43,6 +43,7 @@ Exploratory Data Analysis was conducted using Python libraries such as pandas, s
 #### Decision Tree
 - **Parameter Tuning**: Tested different values of `max_depth` (1-10).
 - **Best Accuracy Score**: 77.6% with `max_depth = 3`.
+
   ![image](https://github.com/user-attachments/assets/ddf8057b-b227-4cef-8ba7-76577f3a01a7)
 
 
