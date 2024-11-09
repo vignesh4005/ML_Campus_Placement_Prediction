@@ -1,4 +1,4 @@
-# Campus Placement Prediction - Machine Learning Classifier Models
+# Campus Placement Prediction - Logistic Regression, Decision Tree, KNN
 
 This project aims to predict a student's placement status based on academic and extracurricular factors such as CGPA, internship experience, and project involvement. Three machine learning classifiers were built and evaluated: Logistic Regression, Decision Tree, and K-Nearest Neighbors (KNN). Each model was tuned and assessed for accuracy to determine which best predicts placement outcomes.
 
