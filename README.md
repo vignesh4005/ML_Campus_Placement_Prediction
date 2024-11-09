@@ -37,14 +37,20 @@ Exploratory Data Analysis was conducted using Python libraries such as pandas, s
 #### Logistic Regression
 - **Parameter Tuning**: Tested different values of `max_iter` (100, 200, 300, 400, 500).
 - **Best Accuracy Score**: 79.8% for all max_iter values, indicating stable performance.
+  ![image](https://github.com/user-attachments/assets/6ae8b416-cff4-426a-ade2-f65ff383b218)
+
 
 #### Decision Tree
 - **Parameter Tuning**: Tested different values of `max_depth` (1-10).
 - **Best Accuracy Score**: 77.6% with `max_depth = 3`.
+  ![image](https://github.com/user-attachments/assets/ddf8057b-b227-4cef-8ba7-76577f3a01a7)
+
 
 #### K-Nearest Neighbors (KNN)
 - **Parameter Tuning**: Tested different values of `k` (5-20).
 - **Best Accuracy Score**: 79.1% at `k = 15`, which balanced accuracy and stability.
+  ![image](https://github.com/user-attachments/assets/31394883-018c-4e8e-b208-1c3b5eab934c)
+
 
 ### 3. Model Comparison and Analysis
 | Model               | Best Parameter   | Accuracy Score |
@@ -55,8 +61,6 @@ Exploratory Data Analysis was conducted using Python libraries such as pandas, s
 
 ### 4. Evaluation Summary
 - **Logistic Regression**: Best-performing model with an accuracy of 79.8%. It offers stability and interpretability, although it may miss non-linear relationships.
-  ![image](https://github.com/user-attachments/assets/074e0d11-d3b1-4d36-8a24-6dcd9afe8f42)
-
 - **Decision Tree**: Scored 77.6% and shows signs of overfitting with increasing depth beyond `max_depth = 4`.
 - **KNN**: Competitive with an accuracy of 79.1%, though computationally intensive and sensitive to k-values. Recommended `k = 15` for the best balance between accuracy and stability.
 
