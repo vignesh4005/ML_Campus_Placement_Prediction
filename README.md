@@ -37,6 +37,7 @@ Exploratory Data Analysis was conducted using Python libraries such as pandas, s
 #### Logistic Regression
 - **Parameter Tuning**: Tested different values of `max_iter` (100, 200, 300, 400, 500).
 - **Best Accuracy Score**: 79.8% for all max_iter values, indicating stable performance.
+  
   ![image](https://github.com/user-attachments/assets/6ae8b416-cff4-426a-ade2-f65ff383b218)
 
 
@@ -50,6 +51,7 @@ Exploratory Data Analysis was conducted using Python libraries such as pandas, s
 #### K-Nearest Neighbors (KNN)
 - **Parameter Tuning**: Tested different values of `k` (5-20).
 - **Best Accuracy Score**: 79.1% at `k = 15`, which balanced accuracy and stability.
+  
   ![image](https://github.com/user-attachments/assets/31394883-018c-4e8e-b208-1c3b5eab934c)
 
 
